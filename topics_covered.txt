@@ -1,36 +1,52 @@
+typecasting:
+- float()               // to convert to float datatype
+- int()                 // to convert to int data type
+- map(fn, list)         // to typecast whole list
+
 string:
-- str.lower()
-- str.upper()
-- str.title()       // hello world -> Hello World
-- str.capitalize()  // hELLO WORLD -> Hello world
-- string sliing     // i.e. [1:2]
+- str.lower()           // to convert string in lower case
+- str.upper()           // to convert string in upper case
+- str.title()           // hello world -> Hello World
+- str.capitalize()      // hELLO WORLD -> Hello world
+- str[1:2]              // String slicing
+- str.split(sep_name)   // returns list
 
 list:
-- list()
-- list comprehension
-- enumerate
-- list.pop(index=last_index)
-- enumerate(list)
-- list.insert(index, obj)
-- list.append(obj)
+- list()                        // list constructor
+- list comprehension            // to get a list more efficiently
+- list.pop(index=last_index)    // to remove an element from list
+- enumerate(list)               // to get a list of pair of index and values
+- list.insert(index, obj)       // to insert at specific index
+- list.append(obj)              // to insert at the end of the list
 
 tuple:
-- tuple()
+- tuple()               // tuple constructor
 
 dictionary:
-- dict.items()
-- dict.values()
-- dict.keys()
+- dict.items()          // to get list of pair of key and value of dictionary
+- dict.values()         // to get a list of values of the dictionary
+- dict.keys()           // to get a list of keys of the dictionary
+- dict.get(key_name)    // to get the value of that key_name
+- dict.pop(key_name)    // to remove that item having that key
 
 random module:
-- random.choice(list)
-- random.shuffle(list)
+- random.choice(list)                       // to pick a element from list
+- random.shuffle(list)                      // to shuffle list elements
 - random.randint(a, b)                      // a <= N <= b
 - random.randrange(a=0, b, step_size = 1)   // a <= N < b
 
-file handling
-- open(path, mode)
-- file.close()
-- file.write(obj)
+file handling:
+- open(path, mode)  // to open file pointer
+- file.close()      // to close file pointer
+- file.write(obj)   // to write something in file
 - file.read()       // returns file data in string
 - file.readline()   // reads a single line at a time
+
+exception handling:
+- try
+- except            // possible errors (ZeroDivisionError, ValueError, SyntaxError)
+- else
+- finally
+
+assertion:
+- assert condition, error_msg       // to avoid a particular codition afterwards
