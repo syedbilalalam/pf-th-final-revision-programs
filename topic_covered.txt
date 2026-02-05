@@ -2,7 +2,7 @@ string:
 - str.lower()
 - str.upper()
 - str.title()       // hello world -> Hello World
-- str.capitalize()  // hELLO WORLD -> Hello WORLD
+- str.capitalize()  // hELLO WORLD -> Hello world
 - string sliing     // i.e. [1:2]
 
 list:
