@@ -8,6 +8,7 @@ list:
 - list.pop(index=last_index)
 - enumerate(list)
 - list.insert(index, obj)
+- list.append(obj)
 
 tuple:
 - tuple()
@@ -16,3 +17,9 @@ dictionary:
 - dict.items()
 - dict.values()
 - dict.keys()
+
+random module:
+- random.choice(list)
+- random.shuffle(list)
+- random.randint(a, b) // a <= N <= b
+- random.randrange(a=0, b, step_size = 1) // a <= N < b
