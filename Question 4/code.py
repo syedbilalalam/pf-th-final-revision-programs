@@ -42,4 +42,3 @@ print(f"Randomly selected dice value is: {dice_value}")
 # Selecting a random score
 score = random.randint(0, 10)
 print(f"Random score between 0 to 10: {score}")
-    
