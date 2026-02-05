@@ -27,3 +27,10 @@ random module:
 - random.shuffle(list)
 - random.randint(a, b)                      // a <= N <= b
 - random.randrange(a=0, b, step_size = 1)   // a <= N < b
+
+file handling
+- open(path, mode)
+- file.close()
+- file.write(obj)
+- file.read()       // returns file data in string
+- file.readline()   // reads a single line at a time
