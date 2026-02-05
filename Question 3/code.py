@@ -69,7 +69,3 @@ try:
         print(f"Index:{i} => Id: {book_id}")
 except:
     print("Index does not exists to update the book id")
-
-
-
-
