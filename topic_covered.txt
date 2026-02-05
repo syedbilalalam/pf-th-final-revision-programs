@@ -1,5 +1,9 @@
 string:
 - str.lower()
+- str.upper()
+- str.title()       // hello world -> Hello World
+- str.capitalize()  // hELLO WORLD -> Hello WORLD
+- string sliing     // i.e. [1:2]
 
 list:
 - list()
@@ -21,5 +25,5 @@ dictionary:
 random module:
 - random.choice(list)
 - random.shuffle(list)
-- random.randint(a, b) // a <= N <= b
-- random.randrange(a=0, b, step_size = 1) // a <= N < b
+- random.randint(a, b)                      // a <= N <= b
+- random.randrange(a=0, b, step_size = 1)   // a <= N < b
