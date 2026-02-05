@@ -1,0 +1,18 @@
+string:
+- str.lower()
+
+list:
+- list()
+- list comprehension
+- enumerate
+- list.pop(index=last_index)
+- enumerate(list)
+- list.insert(index, obj)
+
+tuple:
+- tuple()
+
+dictionary:
+- dict.items()
+- dict.values()
+- dict.keys()
